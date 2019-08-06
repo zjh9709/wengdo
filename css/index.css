@@ -1,0 +1,446 @@
+/*公共样式*/
+h6 {
+	font-size: 30px;
+	color: #4d7343;
+	text-align: center;
+	font-weight: 900;
+}
+
+.common_span {
+	font-size: 14px;
+	color: #73ab65;
+	font-weight: 900;
+	display: block;
+	text-align: center;
+}
+
+i {
+	width: 407px;
+	height: 1px;
+	background: #c9c9c9;
+	display: block;
+	margin: 18px auto;
+}
+
+.common_p {
+	font-size: 18px;
+	color: #888;
+	text-align: center;
+}
+
+/*每一个样式*/
+.container {
+	max-width: 1366px;
+	margin: 0 auto;
+	position: relative;
+}
+
+header {
+	width: 100%;
+	height: 541px;
+}
+
+header .head {
+	width: 100%;
+	height: 60px;
+	background: rgba(19, 22, 26, 0.7);
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 99;
+}
+
+header .head div {
+	width: 1080px;
+	height: 60px;
+	margin: 0 auto;
+
+}
+
+header .head div .logo {
+	float: left;
+}
+
+header .head div nav {
+	float: right;
+	line-height: 60px;
+}
+
+header .head div nav a {
+	color: #fff;
+	padding: 20px 10px;
+	margin-left: 20px;
+}
+
+header .head div nav a:hover {
+	background: #bf4609;
+}
+
+header .banner1 {
+	width: 100%;
+	height: 580px;
+
+}
+
+.service {
+	width: 100%;
+	height: 463px;
+	padding-top: 70px;
+}
+
+.service ul {
+	width: 1038px;
+	margin: 45px auto 0;
+	overflow: hidden;
+}
+
+.service ul li {
+	width: 153px;
+	text-align: center;
+	float: left;
+	margin: 0 10px;
+}
+
+.service ul li a p {
+	color: #484848;
+}
+
+.service ul .ser_on a p {
+	color: #f3631c;
+}
+
+.case {
+	width: 100%;
+	height: 640px;
+	background: #ededed;
+	padding-top: 40px;
+}
+
+.case .common_p a {
+	font-size: 18px;
+	color: #888;
+	margin: 0 23px;
+}
+
+.case .common_p .case_on {
+	color: #ec6618;
+}
+
+.case .common_p a:hover {
+	color: #ec6618;
+}
+
+.case ul {
+	width: 1212px;
+	margin: 19px auto 0;
+	overflow: hidden;
+}
+
+.case ul li {
+	width: 289px;
+	height: 203px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	margin: 7px;
+}
+
+.case ul li img {
+	transform: scale(1);
+	/*2D缩放*/
+	transition: all 1s;
+}
+
+.case ul li:hover img {
+	transform: scale(1.1);
+}
+
+.case ul li div {
+	width: 289px;
+	height: 50px;
+	background: rgba(17, 16, 17, 0.5);
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	position: absolute;
+	left: 0;
+	bottom: -50px;
+	transition: all 1s;
+}
+
+.case ul li:hover div {
+	bottom: 0;
+}
+
+.case ul li span {
+	position: absolute;
+	right: 14px;
+	bottom: 9px;
+	font-size: 14px;
+	font-weight: 900;
+	color: #fff;
+	background: url('../images/more.png') no-repeat 50px 5px;
+	padding-right: 20px;
+}
+
+.about {
+	width: 100%;
+	height: 392px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.about h6 {
+	color: #fefefe;
+}
+
+.about .common_span {
+	color: #ddd;
+}
+
+.about .common_p {
+	color: #cdcbcb;
+}
+
+.about .about_intro {
+	width: 757px;
+	text-align: center;
+	margin: 40px auto 20px;
+	color: #fefefe;
+	line-height: 30px;
+}
+
+.about img {
+	margin-bottom: 8px;
+}
+
+.about a {
+	color: #fb8144;
+	font-size: 14px;
+	background: #fff;
+	padding: 3px 31px;
+	border-radius: 6px;
+}
+
+.news {
+	width: 100%;
+	height: 435px;
+	padding-top: 40px;
+	position: relative;
+}
+
+.news img {
+	position: absolute;
+	top: 80px;
+	right: 0%;
+	transform: rotate(0deg);
+	transition: transform 1s;
+}
+
+.news ul {
+	/*ul丢失高度了，所以要找回高度 overflow: hidden;*/
+	overflow: hidden;
+	width: 1040px;
+	margin: 30px auto 0;
+}
+
+.news ul li {
+	width: 460px;
+	height: 120px;
+	float: left;
+	margin: 12px 30px;
+}
+
+.news ul li .news_left {
+	width: 48px;
+	height: 55px;
+	background: #e7e7e7;
+	float: left;
+	padding: 17px 12px 0;
+	font-size: 18px;
+	color: #000;
+}
+
+.news ul li:hover .news_left {
+	background: #4d7443;
+	color: #fff;
+}
+
+.news ul li .news_left span {
+	font-size: 12px;
+	color: #323232;
+	float: right;
+	margin-right: 2px;
+}
+
+.news ul li:hover .news_left span {
+	color: #ebebeb;
+}
+
+.news ul li .news_right {
+	width: 355px;
+	height: 103px;
+	background: #fff;
+	float: left;
+	padding: 17px 15px 0 18px;
+}
+
+.news ul li:hover .news_right {
+	background: #505050;
+}
+
+.news ul li .news_right h1 {
+	font-size: 16px;
+	font-weight: 900;
+}
+
+.news ul li .news_right h1 a {
+	color: #000;
+}
+
+.news ul li:hover .news_right h1 a {
+	color: #fff;
+}
+
+.news ul li .news_right h1 a span {
+	float: right;
+	color: #fff;
+}
+
+.news ul li .news_right p {
+	width: 295px;
+	color: #737373;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.news ul li:hover .news_right p {
+	color: #ccc;
+}
+
+.partner {
+	width: 100%;
+	height: 382px;
+	padding-top: 40px;
+}
+
+.partner ul {
+	width: 1098px;
+	margin: 40px auto 0;
+}
+
+.partner ul li {
+	width: 163px;
+	height: 69px;
+	float: left;
+	margin: 10px;
+}
+
+.footer {
+	width: 100%;
+	height: 393px;
+	background: url('../images/footer.gif') no-repeat;
+	background-size: 100% 100%;
+	padding-top: 40px;
+}
+
+.footer ul {
+	width: 1150px;
+	margin: 14px auto 0;
+	overflow: hidden;
+}
+
+.footer ul>li {
+	height: 166px;
+	float: left;
+}
+
+.footer ul .foot_left {
+	width: 440px;
+	padding-left: 48px;
+}
+
+.footer ul .foot_center {
+	width: 257px;
+}
+
+.footer ul .foot_center>img {
+	margin-left: 27px;
+}
+
+.footer ul .foot_center>p {
+	margin-top: 10px;
+}
+
+.footer ul .foot_center>p a {
+	margin-right: 15px;
+}
+
+
+.footer ul .foot_right {
+	width: 405px;
+}
+
+.footer ul>li ol li {
+	font-size: 12px;
+	color: #e1e1e1;
+	line-height: 25px;
+}
+
+footer {
+	width: 100%;
+	height: 70px;
+	padding-top: 20px;
+	text-align: center;
+	background: rgba(20, 20, 20, 0.5);
+	position: absolute;
+	bottom: 0;
+}
+
+footer p {
+	line-height: 25px;
+	color: #666;
+	font-size: 14px;
+}
+
+
+
+aside {
+	position: fixed;
+	bottom: 20%;
+	right: 10px;
+}
+
+aside div {
+	width: 44px;
+	height: 148px;
+	background: rgba(40, 40, 40, 0.5);
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: -1;
+}
+
+aside p {
+	overflow: hidden;
+	height: 37px;
+}
+
+aside p span {
+	line-height: 37px;
+	color: #fff;
+	display: none;
+}
+
+aside p:hover {
+	padding-left: 10px;
+	background: #ec6618;
+}
+
+aside p:hover span {
+	display: inline;
+}
+
+aside p img {
+	float: right;
+}

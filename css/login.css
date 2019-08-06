@@ -1,0 +1,182 @@
+
+/*公共样式*/
+h6{
+	font-size: 30px;
+	color:#4d7343;
+	text-align:center;
+	font-weight: 900;
+}
+.common_span{
+	font-size: 14px;
+	color:#73ab65;
+	font-weight:900;
+	display:block;
+	text-align:center;
+}
+i{
+	width: 407px; height: 1px;
+	background:#c9c9c9;
+	display:block;
+	margin:18px auto;
+}
+.common_p{
+	font-size: 18px;
+	color:#888;
+	text-align: center;
+}
+/*每一个样式*/
+.container{
+	max-width:1366px;
+	margin:0 auto;
+	position: relative;
+}
+
+header{
+	width: 100%; height:700px;
+}
+header .head{
+	width: 100%; height:60px;
+	background:rgba(19,22,26,0.7);
+	position: fixed;
+	left:0; top:0;
+	z-index: 999;
+}
+header .head div{
+	width:1080px; height:60px;
+	margin:0 auto;
+
+}
+header .head div .logo{
+	float:left;
+}
+header .head div nav{
+	float:right;
+	line-height: 60px;
+}
+header .head div nav a{
+	color:#fff;
+	padding:20px 10px;
+	margin-left:20px;
+}
+header .head div nav a:hover{
+	background:#bf4609;
+}
+header .banner{
+	width: 100%; height:700px;
+
+}
+/*主要内容的样式 开始*/
+.main{
+	width: 250px; height: 414px;
+	background:#fff;
+	position: absolute;
+	top:149px; right:70px;
+	z-index: 99;	
+	padding:10px 20px 0;
+}
+.main div{
+	border: 1px solid #cccccc;
+    border-radius: 50%;
+    height: 58px;
+    width: 58px;
+    overflow: hidden;
+    margin:0 auto;
+}
+.main h2{
+    font-size:24px;
+    color:#666;
+    text-align: center;
+    margin-top:6px;
+}
+.main input{
+    width: 100%; height: 38px;
+    border:1px solid #507a45;
+    border-radius:5px;
+    clear:both;
+    margin-top:13px;
+    text-indent: 30px;
+}
+
+.main .user{
+    background: url('../images/log_icon_01.jpg') no-repeat 11px 14px;
+}
+.main .password{
+    background: url('../images/log_icon_02.jpg') no-repeat 11px 14px;
+}
+.main .auto_login{
+    width: 100%; height: 38px;
+    border-radius: 0;
+    border:none;
+}
+.main #auto_login{
+    width:auto; height:auto;
+}
+.main label{
+    color:#666;
+    font-size:12px;
+    position: relative;
+    bottom:2px;
+}
+.main .forgot{
+    float:right;  
+    color:#666;
+    font-size:12px;
+    line-height: 38px;
+}
+.main .img_code{
+    width: 100%; height: 38px;
+    border-radius: 0;
+    border:none;
+}
+.main .img_code .img_txt{
+    width: 90px; height: 34px;
+    margin:0;
+    border-radius:0;
+}
+.main .img_code img{
+    position: relative;
+    bottom:2px;
+}
+.main .img_code a{
+    float:right;  
+    color:#666;
+    font-size:12px;
+    line-height: 38px;
+}
+
+
+.main .submit{
+    background:#507a45;
+    color:#fff;
+    font-size:14px;
+    text-indent: 0;
+}
+.main .login{
+  	float:right;  
+    color:#666;
+    font-size:12px;
+    margin-top:9px;
+}
+
+
+
+
+
+/*主要内容的样式 结束*/
+footer{
+	width: 100%; height: 70px;
+	padding-top:20px;
+	text-align: center;
+	background:rgba(2,2,2,0.8);
+	position: absolute;
+	bottom:0;
+	z-index: 99;
+}
+footer p{
+	line-height: 25px;
+	color:#666;
+	font-size: 14px;
+}
+
+
+

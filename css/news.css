@@ -1,0 +1,212 @@
+
+/*公共样式*/
+h6{
+	font-size: 30px;
+	color:#4d7343;
+	text-align:center;
+	font-weight: 900;
+}
+.common_span{
+	font-size: 14px;
+	color:#73ab65;
+	font-weight:900;
+	display:block;
+	text-align:center;
+}
+i{
+	width: 407px; height: 1px;
+	background:#c9c9c9;
+	display:block;
+	margin:18px auto;
+}
+.common_p{
+	font-size: 18px;
+	color:#888;
+	text-align: center;
+}
+/*每一个样式*/
+.container{
+	max-width:1366px;
+	margin:0 auto;
+	/*position: relative;*/
+}
+
+header{
+	width: 100%; height: 541px;
+}
+header .head{
+	width: 100%; height:60px;
+	background:rgba(19,22,26,0.7);
+	position: fixed;
+	left:0; top:0;
+	z-index: 99;
+}
+header .head div{
+	width:1080px; height:60px;
+	margin:0 auto;
+
+}
+header .head div .logo{
+	float:left;
+}
+header .head div nav{
+	float:right;
+	line-height: 60px;
+}
+header .head div nav a{
+	color:#fff;
+	padding:20px 10px;
+	margin-left:20px;
+}
+header .head div nav a:hover{
+	background:#bf4609;
+}
+header .banner{
+	width: 100%; height: 541px;
+
+}
+/*主要内容的样式 开始*/
+.case_map{
+	width: 100%; height: 165px;
+	/*background: blue;*/
+	padding-top: 1px;
+}
+.case_map p{
+	width:1147px; /*height: 165px;*/
+	margin:25px auto 50px;
+}
+.case_map p img{
+	margin-right:10px;
+}
+.case_map p a{
+	color:#434343;
+}
+.case_map p .map_on{
+	color:#ba501b;
+}
+.case_map h2{
+	text-align: center;
+	font-size: 24px;
+	color:#2a5320;
+}
+.case_map strong{
+	display:block;
+	text-align:right;
+	width: 984px;
+	margin:0 auto;
+}
+.main{
+	width: 100%;
+	background: #fff;
+	padding:16px 0 90px;
+}
+.main>div{
+	width:905px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.main>nav{
+	width: 905px;
+	margin:30px auto 0;
+}
+
+.foot{
+	width: 100%; height: 178px;
+	background:#f6f5f5;
+}
+.foot ul{
+	width: 900px; height: 140px;
+	/*background:blue;*/
+	margin:0 auto;
+	padding-top:39px;
+}
+.foot ul li{
+	/*width: 900px; height: 140px;*/
+	/*background:blue;*/
+	float:left;
+}
+.foot ul .foot_left{
+	width: 277px; height: 140px;
+}
+.foot ul .foot_left p{
+	font-size: 14px;
+	color:#666;
+	margin:5px 0;
+}
+.foot ul .foot_left a{
+	color:#999;
+}
+.foot ul .foot_center{
+	width:351px; height: 107px;
+	border-left:1px solid #e3e3e3;
+	border-right:1px solid #e3e3e3;	
+}
+.foot ul .foot_center p{
+	text-align: center;
+	line-height: 107px;
+	font-size: 14px;
+	color:#666;
+}
+.foot ul .foot_center p a{
+	margin-left:17px;
+}
+.foot ul .foot_right{
+	width: 268px; height: 140px;
+	text-align: right;
+}
+
+
+
+/*主要内容的样式 结束*/
+footer{
+	width: 100%; height: 70px;
+	padding-top:20px;
+	text-align: center;
+	background:rgba(20,20,20,0.5);
+	/*position: absolute;*/
+	/*bottom:0;*/
+}
+footer p{
+	line-height: 25px;
+	color:#666;
+	font-size: 14px;
+}
+
+
+
+aside{
+	position: fixed;
+	bottom:20%; right:10px;
+}
+aside div{
+	width: 44px; height: 148px;
+	background:rgba(40,40,40,0.5);
+	position: absolute;
+	top:0; right:0;
+	z-index: -1;
+}
+aside p{
+	overflow: hidden;
+	height:37px;
+}
+aside p span{
+	line-height:37px;
+	color:#fff;
+	display:none;
+}
+aside p:hover{
+	padding-left:10px;
+	background:#ec6618;
+}
+aside p:hover span{
+	display:inline;
+}
+aside p img{
+	float:right;
+}
+
+
+
+
+
+
